@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    height: 3rem;
+    position: fixed;
+    width: 100%;
+}
+.navlist{
+
+width: 50%;
+display: flex;
+align-items: center;
+height: 3.1rem;
+
+}
+.navlist li{
+width: 30;
+list-style: none;
+
+padding: 30px 10px;
+
+}
+.navlist li a{
+text-decoration : none;
+color: black;
+display: flex;
+justify-content: flex-end;
+
+}
+.navlist li a:hover{
+    text-decoration : none;
+    color:white;
+
+
+    }
+.rightnav{
+    
+    width: 39rem;
+    text-align: right;
+    
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 81, 0);
+    text-shadow: 3px 3px 3px black;
+   
+    
+    
+}
+.logo img{
+    width: 3rem;
+    height: 3rem;
+    
+    border-radius: 5px;
+ 
+
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    border: 10px ;
+}
+.background{
+    background: rgb(254,216,177) url(https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80);
+
+background-size: cover;
+
+
+    
+}
+.first.background{
+height: 40rem;
+padding-top: 4rem;
+}
+.font{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px;
+    font-style: italic;
+    
+}
+.secright{
+    display: flex;
+    margin-top: 10rem;
+    padding-top: 10px;
+    padding-right: 100px;
+    background-color:lightsteelblue;
+}
+.subtag{
+    margin-top: 1rem;
+float: left;
+padding-top: 76px;
+margin-left: 45px;
+}
+
+.photo1{
+    margin-right: -2rem;
+    border-radius: 20rem;
+    height: 20rem;;
+    box-shadow: 10px 10px 10px;
+}
+.para{
+    font-size: 4rem;
+    margin-left: 10px;
+    float: left;
+    height: 0rem;
+    margin-top: 2rem;
+    padding-left: 30px;
+    padding-bottom: -16px;
+    }
+
+    .secleft{
+        display: flex;
+        margin-top: 10rem;
+        padding-top: 10px;
+        padding-right: 100px;
+    flex-direction: row-reverse;
+    background-color: pink;
+    }
+    .contact{
+        background-color: rgb(241, 238, 235);
+        text-align: center;
+        font-size: 30px;
+        height: 49rem;
+    
+    }
+   .thumbnail :hover{
+       transform: rotateY(180deg);
+       transform-style: preserve-3d;
+       transition: 1s ease-in-out;
+
+   }
+    .graph{
+
+    padding-left: 55rem;
+    padding-bottom: 20rem;
+    
+
+   }
+#p1{
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+}
+#p2{
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-left: 2rem;
+}
+
+.aboutus{
+    height: 42rem;
+    text-align: center;
+    background-color: rgba(248, 226, 220, 0.788);
+    
+}
+.cards{
+    width: 20%;
+    background-color: rgb(202, 199, 199);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    display: inline-block;
+    transition: 0.5s ease;
+    margin: 5.1rem;
+}
+.title{
+    padding: 3px;
+}
+.divimg img{
+width: 100%;
+border-top-left-radius: 5px ;
+border-top-right-radius: 5px;
+}
+.cards:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 18px  black;
+}
+.inner-footer{
+    margin: 0rem;
+    background-color: rgb(241, 211, 211);
+    
+
+
+}
+.social-links{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: initial;
+    list-style: none;
+}
+.social-links ul{
+    display: flex
+
+
+}
+.social-links ul li{
+    list-style: none;
+    padding-right: 6rem;
+}
+.social-items{
+    background-color: red;
+    padding-right: 2rem;
+    
+}
+.quick-links ul{
+    display: flex;
+    list-style: none;
+    
+
+
+    margin-left: 15rem;
+    text-decoration: none;
+
+}
+.quick-links ul li{
+    padding-right: 12rem;
+}
+ #likh{
+    text-decoration: none;
+    padding-right: 7rem;
+}
+.quick-links ul li a{
+    text-decoration: none;
+    
+}
+.outer-footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(254,216,177);
+
+}
+.thumbnail2{
+    margin-left: 4rem;
+}
+#umar{
+    background-color: rgb(248, 239, 186);
+}
+#card1{
+height: 14rem;
+}
+#card2{
+height: 14rem;
+}
+#card3{
+    height: 14rem;
+}
+.fa {
+    color: rgb(252, 252, 249);
+    text-shadow: 1px 1px 1px black;
+}
+.likh{
+    color: rgb(252, 252, 249);
+    text-shadow: 1px 1px 1px black;
+}
+.quick-links{
+    background-color: rgb(192, 166, 252);
+}
